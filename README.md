@@ -58,7 +58,7 @@ bower install
 tsd install
 ```
 
-#####Windows - Remedy for command not recognized issue 
+#####Windows - Command not recognized issue
 
 If you get following error in cmd,
 
