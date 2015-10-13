@@ -9,7 +9,7 @@ This section discusses setting up the development enviornment for the Electron p
 Download and install
 
 * [NodeJS](https://nodejs.org/en/download/)
-* [Ruby](http://rubyinstaller.org/downloads/) ( Only if needed in 6th command  )
+* [Ruby](http://rubyinstaller.org/downloads/) ( Only if needed in 4th step )
 
 Run the following commands in cmd / terminal. ( If you get 'Permission denied' error in OS X or Linux follow [ steps  here](https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md) )
 
@@ -25,7 +25,8 @@ npm install -g cordova
 ```sh
 npm install -g ionic
 ```
-###### 4. Install Sass ( Ruby will be required. In case of command not recognized issue, run the command in 'Start Command prompt with Ruby' or [see here](./README.md#user-content-windows---command-not-recognized-issue) )
+###### 4. Install Sass 
+Ruby will be required. In case of command not recognized issue, run the command in 'Start Command prompt with Ruby' or [see here](./README.md#user-content-windows---command-not-recognized-issue)
 ```sh
 gem install compass
 ```
@@ -37,7 +38,8 @@ npm install -g typescript
 ```sh
 npm install -g tsd
 ```
-###### 7. Clone the Electron project ( In case of command not recognized issue, rcreaun this command in 'Git Bash' or [see here](./README.md#user-content-windows---command-not-recognized-issue) )
+###### 7. Clone the Electron project 
+In case of command not recognized issue, run the command in 'Git Bash' or [see here](./README.md#user-content-windows---command-not-recognized-issue)
 ```sh
 git clone https://github.com/Cinergix/electron/ 
 ```
@@ -58,7 +60,7 @@ bower install
 tsd install
 ```
 
-#####Windows - Command not recognized issue
+#####Windows - Command not recognized issue 
 
 If you get following error in cmd,
 
