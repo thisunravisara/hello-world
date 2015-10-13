@@ -4,14 +4,14 @@ Creately Mobile App
 This is the sourcecode of the Creately Mobile hybrid app. The app is focused on letting mobile users viewing and collaborating on diagrams. Full specification can be found on [Google Sites](https://sites.google.com/a/cinergix.com/creately-player-viewer-and-mobile/functional-sepcifications/2-5-creately-mobile).
 
 # Setting Up #
-This section discusses setting up the development enviornment for the Creately Mobile hybrid app. 
+This section discusses setting up the development enviornment for the Electron project. 
 
 Download and install
 
 * [NodeJS](https://nodejs.org/en/download/)
 * [Ruby](http://rubyinstaller.org/downloads/) ( Only if needed in 6th command  )
 
-Run the following commands in cmd / terminal. If you get 'Permission denied' error in OS X or Linux [ steps  here](https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md)  
+Run the following commands in cmd / terminal. ( If you get 'Permission denied' error in OS X or Linux follow [ steps  here](https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md) )
 
 ###### 1. Install Yeoman tools
  ```sh
@@ -25,7 +25,7 @@ npm install -g cordova
 ```sh
 npm install -g ionic
 ```
-###### 4. Install Sass ( Ruby will be required. Run this command in 'Start Command prompt with Ruby' or check 'Note' at the bottom of this section )
+###### 4. Install Sass ( Ruby will be required. In case of command not recognized issue, run the command in 'Start Command prompt with Ruby' or [see here](./README.md#user-content-windows---command-not-recognized-issue) )
 ```sh
 gem install compass
 ```
@@ -37,11 +37,11 @@ npm install -g typescript
 ```sh
 npm install -g tsd
 ```
-###### 7. Clone the Creately Mobile project ( Run this command in Git [Bash](#####Note) or [see note here](./README.md#user-content-note) )
+###### 7. Clone the Electron project ( In case of command not recognized issue, rcreaun this command in 'Git Bash' or [see here](./README.md#user-content-windows---command-not-recognized-issue) )
 ```sh
 git clone https://github.com/Cinergix/electron/ 
 ```
-###### 8. Move to the project path 'electron' and run following commands
+###### 8. Navigate to the project path 'electron'
 ```sh
 cd electron
 ```
@@ -58,7 +58,7 @@ bower install
 tsd install
 ```
 
-#####Note
+#####Windows - Remedy for command not recognized issue 
 
 If you get following error in cmd,
 
