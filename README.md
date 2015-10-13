@@ -37,7 +37,7 @@ npm install -g typescript
 ```sh
 npm install -g tsd
 ```
-###### 7. Clone the Creately Mobile project ( Run this command in Git Bash or [see note here](./Readme.md#user-content-note) )
+###### 7. Clone the Creately Mobile project ( Run this command in Git Bash or [see note here](./README.md#user-content-note) )
 ```sh
 git clone https://github.com/Cinergix/electron/ 
 ```
